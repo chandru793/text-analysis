@@ -21,6 +21,11 @@
     margin-right: 10px;
     width: 300px;
 }
+.input:hover,
+.input:focus,
+.input:active{
+    border: 2px solid #f1f1f1;
+}
 .button1{
     background-color: transparent;
     border:2px solid #f1f1f1;
@@ -45,4 +50,7 @@
     color: #f1f1f1;
     border: 2px solid #f1f1f1;
     border-radius: 5px;
+}
+.h1{
+    text-decoration: none;
 }

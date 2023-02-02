@@ -97,7 +97,7 @@ return (
             </button>
         </form>
         {show && ans !== "" ? (
-            <div className="afterSummarize">
+            <div className="afterSummarize" autoFocus>
                 <div className="insideAfterSummarize">    
                     <CopyToClipboard
                         className="copyButton"

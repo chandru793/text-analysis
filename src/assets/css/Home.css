@@ -7,8 +7,18 @@
     align-items: center;
     
 }
+h1{
+    letter-spacing: 0.1rem;
+    text-decoration: underline;
+}
+.link{
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+}
 .buttonDiv{
     display: flex;
+    flex-direction: row;
     width: 70%;
     align-self: center;
     margin: 20px;
@@ -17,15 +27,28 @@
 .buttonDiv:hover,
 .buttonDiv:focus,
 .buttonDiv:active{
-    scale: 1.0001;
+    scale: 1.01;
     letter-spacing: 0.2rem;
 }
 
 .button{
     width: 100%;
     text-align: start;
+    background-color: transparent;
+    color: #f1f1f1;
+    border: 2px solid #f1f1f1;
+    padding: 20px;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+}
+.button:hover,
+.button:focus,
+.button:active{
+    scale: 1.01;
+    letter-spacing: 0.2rem;
 }
 .svg{
     margin-left: -45px;
-    margin-top: 9px;
+    margin-top: 14px;
+    fill: #f1f1f1;
 }

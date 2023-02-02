@@ -51,7 +51,7 @@ const ArticleExtraction = () => {
             </div>
             {show && title !== "" && summary !== "" && text !== "" ? (
                 <div className='result'>
-                    <h1>{title}</h1>
+                    <h1 className='h1'>{title}</h1>
                     <h3>Summary</h3>
                     <p>{summary}</p>
                     <h3>Text</h3>
