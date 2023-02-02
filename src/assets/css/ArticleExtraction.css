@@ -21,7 +21,7 @@
     margin-right: 10px;
     width: 300px;
 }
-.button{
+.button1{
     background-color: transparent;
     border:2px solid #f1f1f1;
     color: #f1f1f1;
@@ -30,9 +30,9 @@
     letter-spacing: 0.1rem;
     margin-left: 10px;
 }
-button:hover,
-button:focus,
-button:active{
+.button1:hover,
+.button1:focus,
+.button1:active{
     scale: 1.05;
     letter-spacing: 0.2rem;
 }

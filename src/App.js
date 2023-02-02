@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import { ToastContainer } from "react-toastify";
+import { Route, Routes } from "react-router-dom";
 
 //components
 import Navbar from "./components/Navbar";
@@ -12,12 +13,12 @@ function App() {
   return (
     <div className="app">
       <Navbar />
-      <div>
-        <Home />
-      {/* <Summarize /> */}
-      {/* <ArticleExtraction /> */}
-        
-      </div>
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/summarize" element={<Summarize />} />
+        <Route path="/article-extraction" element={<ArticleExtraction />} />
+      </Routes>
 
       {/* Toast  */}
       <ToastContainer

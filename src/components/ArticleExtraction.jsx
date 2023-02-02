@@ -47,7 +47,7 @@ const ArticleExtraction = () => {
                     placeholder='Enter url to extract article'
                     onChange={(e) => setData(e.target.value)}
                 />
-                <button className='button' onClick={Submit}>Submit</button>
+                <button className='button1' onClick={Submit}>Submit</button>
             </div>
             {show && title !== "" && summary !== "" && text !== "" ? (
                 <div className='result'>
