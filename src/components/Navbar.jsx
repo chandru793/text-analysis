@@ -16,7 +16,7 @@ import { Link } from 'react-router-dom';
 
 
 const pages = [
-        <Link Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>Home</Link >,
+    <Link Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>Home</Link >,
     <Link Link to="/summarize" style={{ textDecoration:'none',color:'inherit' }}>Summarize</Link >,
     <Link Link to="/article-extraction" style={{ textDecoration:'none',color:'inherit' }}>Article Extraction</Link >,
 ];

@@ -90,3 +90,14 @@ textarea:focus{
     padding:8px;
     color: #f1f1f1;
 }
+
+@media(max-width:1020px){
+    textarea{
+        width: 100%;
+    }
+}
+@media(max-width:760px){
+    textarea{
+        width: 100%;
+    }
+}

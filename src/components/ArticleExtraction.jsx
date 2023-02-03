@@ -54,7 +54,7 @@ const ArticleExtraction = () => {
                     <h1 className='h1'>{title}</h1>
                     <h3>Summary</h3>
                     <p>{summary}</p>
-                    <h3>Text</h3>
+                    <h3>Brief News</h3>
                     <p>{text}</p>
                 </div>                
             ):null}
